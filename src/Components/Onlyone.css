@@ -1,0 +1,14 @@
+.title {
+    color:red;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+img{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: ". img .";
+    justify-content: center;
+    border: blue solid 1px;
+}

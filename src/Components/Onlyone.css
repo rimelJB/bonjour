@@ -1,7 +1,7 @@
 .title {
     color:red;
-    width: 50px;
-    display: flex;
+    width: 100%;
+    padding: 1em;
     justify-content: center;
     
 }
@@ -10,5 +10,5 @@ img{
     grid-template-columns: 1fr 4fr 1fr;
     grid-template-areas: ". img .";
     justify-content: center;
-    border: blue solid 1px;
+    border: black dotted 2px;
 }
